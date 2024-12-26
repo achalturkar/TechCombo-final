@@ -39,7 +39,7 @@ const HeroHome = () => {
                         <source src="/video/dot.mp4" type="video/mp4" />
                     </video> */}
 
-                    <img src="/src/assets/images/recruiter.webp" alt="" />
+                    <img src="/assets/images/recruiter.webp" alt="" />
 
                 </div>
             </div>

@@ -11,25 +11,25 @@ const Home = () => {
    const planData = [
       {
          title: "Our Mission",
-         img: "/src/assets/images/mountain.webp",
+         img: "/assets/images/mountain.webp",
          head: "Empowering Growth and Innovation",
          desc: "At TechCombo, we empower businesses with tailored talent solutions and innovative services while creating meaningful opportunities for professionals to grow and succeed.",
       },
       {
          title: "Our Vision",
-         img: "/src/assets/images/bulb.webp",
+         img: "/assets/images/bulb.webp",
          head: "A Vision for Excellence",
          desc: "To be a trusted leader in workforce solutions and IT project development, driving innovation, efficiency, and sustainable growth for businesses and professionals.",
       },
       {
          title: "Our Value",
-         img: "/src/assets/images/dia.webp",
+         img: "/assets/images/dia.webp",
          head: "Core Values That Inspire Trust",
          desc: "At TechCombo, we uphold excellence, integrity, innovation, collaboration, and opportunity delivering quality services, fostering trust, embracing technology, building partnerships, and empowering growth for all.",
       },
       {
          title: "Our Goal",
-         img: "/src/assets/images/archery.webp",
+         img: "/assets/images/archery.webp",
          head: "Goals That Drive Success",
          desc: "To lead in staffing, outsourcing, and IT project development by connecting businesses with top talent, offering diverse career opportunities, and fostering growth through impactful solutions.",
       },

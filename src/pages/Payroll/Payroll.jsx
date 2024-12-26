@@ -54,7 +54,7 @@ const Payroll = () => {
         <>
             <Navbar />
 
-            <section className="relative w-full h-96 bg-cover bg-center object-fit  bg-no-repeat" style={{ backgroundImage: "url(/src/assets/images/paymain.webp)" }}>
+            <section className="relative w-full h-96 bg-cover bg-center object-fit  bg-no-repeat" style={{ backgroundImage: "url(/assets/images/paymain.webp)" }}>
                 <div className="absolute inset-0 bg-blue-900 bg-opacity-50 flex flex-col items-center justify-center text-wrap">
                     <h1 className="text-white text-5xl md:text-6xl font-bold font-poppins text-center">Payroll Outsourcing</h1>
                     <p className="text-center text-md text-white font-poppins">TechCombo: Managing Payroll So You Can Manage Success</p>
@@ -62,15 +62,15 @@ const Payroll = () => {
             </section>
 
             <section className="mt-4 px-4 md:px-20 lg:px-40 ">
-                <Detail information={pagecontent.detail} img="/src/assets/images/payroll1.webp" />
+                <Detail information={pagecontent.detail} img="/assets/images/payroll1.webp" />
             </section>
 
             <section className="mt-12 px-4 md:px-20 lg:px-40 ">
-                <OurServices services={pagecontent.services} img="/src/assets/images/payroll.webp" />
+                <OurServices services={pagecontent.services} img="/assets/images/payroll.webp" />
             </section>
 
             <section className="mt-12 px-4 md:px-20 lg:px-40 ">
-                <WhyChooseUs chooses={pagecontent.paraChooses} img="/src/assets/images/staff3.webp" />
+                <WhyChooseUs chooses={pagecontent.paraChooses} img="/assets/images/staff3.webp" />
             </section>
 
 

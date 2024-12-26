@@ -54,7 +54,7 @@ const Manpower = () => {
         <>
             <Navbar />
 
-            <section className="relative w-full h-96 bg-cover bg-center object-fit  bg-no-repeat" style={{ backgroundImage: "url(/src/assets/images/manpower.webp)" }}>
+            <section className="relative w-full h-96 bg-cover bg-center object-fit  bg-no-repeat" style={{ backgroundImage: "url(/assets/images/manpower.webp)" }}>
                 <div className="absolute inset-0 bg-blue-900 bg-opacity-50 flex flex-col items-center justify-center text-wrap">
                     <h1 className="text-white text-5xl md:text-6xl font-bold font-poppins text-center">Manpower Outsourcing</h1>
                     <p className="text-center text-md text-white font-poppins">TechCombo: Your Trusted Partner for Manpower Outsourcing
@@ -63,15 +63,15 @@ const Manpower = () => {
             </section>
 
             <section className="mt-4 px-4 md:px-20 lg:px-40 ">
-                <Detail information={pagecontent.detail} img="/src/assets/images/manpower1.jpg" />
+                <Detail information={pagecontent.detail} img="/assets/images/manpower1.jpg" />
             </section>
 
             <section className="mt-12 px-4 md:px-20 lg:px-40 ">
-                <OurServices services={pagecontent.services} img="/src/assets/images/staff1.webp" />
+                <OurServices services={pagecontent.services} img="/assets/images/staff1.webp" />
             </section>
 
             <section className="mt-12 px-4 md:px-20 lg:px-40 ">
-                <WhyChooseUs chooses={pagecontent.paraChooses} img="/src/assets/images/staff3.webp" />
+                <WhyChooseUs chooses={pagecontent.paraChooses} img="/assets/images/staff3.webp" />
             </section>
 
 

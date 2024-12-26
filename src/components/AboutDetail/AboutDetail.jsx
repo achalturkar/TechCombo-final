@@ -10,7 +10,7 @@ const AboutDetail = () => {
 
             <div className="w-full md:w-1/2 flex justify-center items-center mb-4" data-aos="fade-up">
 
-                <img src="/src/assets/images/abt.webp" alt="" className="md:size-8/12 " />
+                <img src="/assets/images/abt.webp" alt="" className="md:size-8/12 " />
 
             </div>
             <div className="w-full md:w-1/2 mb-4 " data-aos="fade-up">

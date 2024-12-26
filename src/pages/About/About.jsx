@@ -24,7 +24,7 @@ const About = () => {
     <>
       <Navbar />
 
-      <section className="relative w-full h-96 bg-cover bg-center object-fit  bg-no-repeat" style={{ backgroundImage: "url(/src/assets/images/emp.webp)" }}>
+      <section className="relative w-full h-96 bg-cover bg-center object-fit  bg-no-repeat" style={{ backgroundImage: "url(/assets/images/emp.webp)" }}>
         <div className="absolute inset-0 bg-blue-900 bg-opacity-50 flex flex-col items-center justify-center">
           <h1 className="text-white text-5xl md:text-6xl font-bold font-poppins">About Us</h1>
           <p className="text-center text-md text-white font-poppins">Discover TechCombo – where innovation meets opportunity </p>
@@ -37,7 +37,7 @@ const About = () => {
 
 
       <section className="mt-12 px-4 md:px-20 lg:px-40 ">
-        <WhyChooseUs chooses={paraChooses} img= "/src/assets/images/sitEmp.webp"/>
+        <WhyChooseUs chooses={paraChooses} img= "/assets/images/sitEmp.webp"/>
       </section>
 
 

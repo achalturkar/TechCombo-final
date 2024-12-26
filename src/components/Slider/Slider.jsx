@@ -9,13 +9,13 @@ import "swiper/css/pagination";
 const Slider = () => {
 
     const industryData = [
-        {title: "Technology",  image: "/src/assets/images/techno.webp" },
-        {title: "Retail",  image: "/src/assets/images/retails.webp" },
-        {title: "Finance", image: "/src/assets/images/finance.webp" },
-        {title: "Pharma & Helthcare", image: "/src/assets/images/healthcare.webp" },
-        {title: "Industrial", image: "/src/assets/images/industry.webp" },
-        {title: "Consumer", image: "/src/assets/images/consumer.webp" },
-        {title: "Automobile", image: "/src/assets/images/automobile.webp" },
+        {title: "Technology",  image: "/assets/images/techno.webp" },
+        {title: "Retail",  image: "/assets/images/retails.webp" },
+        {title: "Finance", image: "/assets/images/finance.webp" },
+        {title: "Pharma & Helthcare", image: "/assets/images/healthcare.webp" },
+        {title: "Industrial", image: "/assets/images/industry.webp" },
+        {title: "Consumer", image: "/assets/images/consumer.webp" },
+        {title: "Automobile", image: "/assets/images/automobile.webp" },
       
     ];
 

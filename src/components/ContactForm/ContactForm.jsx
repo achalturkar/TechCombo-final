@@ -31,7 +31,7 @@ const ContactForm = () => {
         <div className="w-full p-4 flex flex-col md:flex-row bg-gradient-to-b from-green-200 to-slate-200 mb-8 shadow-lg ">
 
             <div className="w-full md:w-1/2 flex justify-center items-center" data-aos="fade-up">
-                <img src="/src/assets/images/contactPerson.webp" alt="" className="size-112" />
+                <img src="/assets/images/contactPerson.webp" alt="" className="size-112" />
 
             </div>
             <div className="w-full md:w-1/2 max-w-md mx-auto  p-6 bg-white shadow-lg rounded-lg" data-aos="fade-up">

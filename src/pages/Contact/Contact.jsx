@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div className="">
       <Navbar />
-      <section className="relative w-full h-96 bg-cover bg-center object-fit  bg-no-repeat" style={{ backgroundImage: 'url(/src/assets/images/earth.webp)' }}>
+      <section className="relative w-full h-96 bg-cover bg-center object-fit  bg-no-repeat" style={{ backgroundImage: 'url(/assets/images/earth.webp)' }}>
         <div className="absolute inset-0 bg-blue-900 bg-opacity-50 flex flex-col items-center justify-center">
           <h1 className="text-white text-5xl md:text-6xl font-bold font-poppins">Get In Touch</h1>
           <p className="text-center text-md text-white font-poppins"> TechCombo is ready to provide the right solution according to your needs</p>

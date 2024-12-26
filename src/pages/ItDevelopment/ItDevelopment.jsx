@@ -43,25 +43,25 @@ const ItDevelopment = () => {
         planData: [
             {
                 title: "Expertise",
-                img: "/src/assets/images/mountain.webp",
+                img: "/assets/images/mountain.webp",
                 head: "Leveraging Industry Knowledge for Superior Solutions",
                 desc: "At TechCombo, our team comprises highly skilled professionals with extensive industry knowledge and experience. We stay updated with the latest technological advancements, ensuring that our clients benefit from innovative and reliable solutions. Whether it’s software development, cloud computing, or cybersecurity, our expertise allows us to deliver results that exceed expectations.",
             },
             {
                 title: "Customization",
-                img: "/src/assets/images/bulb.webp",
+                img: "/assets/images/bulb.webp",
                 head: "Tailored IT Services to Fit Your Business",
                 desc: "We understand that every business is unique, which is why our solutions are not one-size-fits-all. TechCombo specializes in tailoring IT services to meet the specific needs and goals of your organization. From custom software development to scalable cloud solutions, our services are designed to align seamlessly with your business operations.",
             },
             {
                 title: "Innovation",
-                img: "/src/assets/images/dia.webp",
+                img: "/assets/images/dia.webp",
                 head: "Pioneering the Future with Cutting-Edge Technology",
                 desc: "Embracing the future of technology, we leverage cutting-edge tools and methodologies to drive digital transformation. Our innovative approach ensures that your business stays ahead of the competition, whether by automating processes, enhancing user experiences, or integrating AI and machine learning into your workflows.",
             },
             {
                 title: "Support",
-                img: "/src/assets/images/archery.webp",
+                img: "/assets/images/archery.webp",
                 head: "Ongoing Assistance for Long-Term Success",
                 desc: "At TechCombo, our commitment to client success doesn’t end with project delivery. We provide ongoing support and maintenance to ensure that your IT systems continue to perform optimally. Whether it’s troubleshooting issues, updating software, or providing technical guidance, we are with you every step of the way to ensure smooth operations and long-term success.",
             },
@@ -82,7 +82,7 @@ const ItDevelopment = () => {
                     className=" w-full h-screen bg-cover bg-center bg-gradient-to-r from-black to-blue-800  flex flex-col md:flex-row items-center justify-center ">
                     <div className="absolute w-4/5 flex flex-col md:flex-row items-center justify-center m-16 gap-4">
                         <div className="md:w-2/5">
-                            <img src="/src/assets/images/itdeveloper.webp" alt="" />
+                            <img src="/assets/images/itdeveloper.webp" alt="" />
                         </div>
                         <div className=" md:w-3/5 fex flex-col items-center justify-center text-center">
                             <h1 className="text-white text-4xl md:text-6xl font-bold text-center ">

@@ -10,7 +10,7 @@ const HoverCard = ({cards}) => {
 
             {cards.map((card) => (
                 <div key={card.id} className="relative group w-64 h-80 bg-gray-100 shadow-lg rounded-lg overflow-hidden transition-transform transform " data-aos="fade-up">
-                    <img src={`/src/assets/images/${card.id}.webp`} alt="" className="absolute  w-full h-full object-cover hover:scale-105"/>
+                    <img src={`/assets/images/${card.id}.webp`} alt="" className="absolute  w-full h-full object-cover hover:scale-105"/>
 
 
                     <div className="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-70 transition-opacity"></div>
