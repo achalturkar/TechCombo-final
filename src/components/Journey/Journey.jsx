@@ -11,10 +11,10 @@ import "swiper/css/navigation";
 const Journey = () => {
 
     const journeyData = [
-        { year: "2020 - The Beginning", text: "Established with a focus on IT staffing and solutions, aiming to deliver efficient and reliable services.", image: "/src/assets/images/man1.webp" },
-        { year: "2021 - Building Momentum", text: "Introduced contract-based hiring models and strengthened partnerships with freelancers.", image: "/src/assets/images/man2.webp" },
-        { year: "2022 - Expanding Horizons", text: "Broadened operations to cover non-IT sectors and introduced payroll outsourcing solutions.", image: "/src/assets/images/man3.webp" },
-        { year: "2023 - Achieving Milestones", text: "Reached 100+ clients across IT and non-IT industries, building lasting partnerships.", image: "/src/assets/images/man4.webp" },
+        { year: "2020 - The Beginning", text: "Established with a focus on IT staffing and solutions, aiming to deliver efficient and reliable services.", image: "/src/assets/img/man1.webp" },
+        { year: "2021 - Building Momentum", text: "Introduced contract-based hiring models and strengthened partnerships with freelancers.", image: "/src/assets/img/man2.webp" },
+        { year: "2022 - Expanding Horizons", text: "Broadened operations to cover non-IT sectors and introduced payroll outsourcing solutions.", image: "/src/assets/img/man3.webp" },
+        { year: "2023 - Achieving Milestones", text: "Reached 100+ clients across IT and non-IT industries, building lasting partnerships.", image: "/src/assets/img/man4.webp" },
 
     ];
 
