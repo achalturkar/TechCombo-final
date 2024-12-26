@@ -38,7 +38,7 @@ const Staffing = () => {
 
             <section className="relative w-full h-96 bg-cover bg-center md:bg-start object-fit  bg-no-repeat" style={{ backgroundImage: "url(/assets/images/staff.webp)" }}>
                 <div className="absolute inset-0 bg-blue-900 bg-opacity-50 flex flex-col items-center justify-center">
-                    <h1 className="text-white text-5xl md:text-6xl font-bold font-poppins">Staffing Solution</h1>
+                    <h1 className="text-white text-5xl md:text-6xl font-bold font-poppins text-center">Staffing Solution</h1>
                     <p className="text-center text-md text-white font-poppins">Staffing Excellence, Delivered by TechCombo</p>
                 </div>
             </section>

@@ -16,7 +16,7 @@ const WhyChooseUs = ({chooses, img}) => {
                 <ul className="flex flex-col justify-center items-start text-xl font-poppins font-semibold leading-7 p-4">
 
                     {chooses.map((choose, index) => (
-                        <li key={index}  className="relative pl-8 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-3 before:h-3 before:bg-[url('/src/assets/images/check.webp')]
+                        <li key={index}  className="relative pl-8 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-3 before:h-3 before:bg-[url('/assets/images/check.webp')]
                             before:bg-contain before:bg-no-repeat hover:before:scale-125 hover:before:w-4 hover:before:h-4 transition-transform mb-4"
                         >
                             <h3>{choose.head}</h3>

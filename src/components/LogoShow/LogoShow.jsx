@@ -12,7 +12,7 @@ const LogoShow = () =>{
         { name: "Nodejs", src: "/assets/svg/nodejs.svg" },
         { name: "HTML5", src: "/assets/svg/html.svg" },
         { name: "CSS3", src: "/assets/svg/css.svg" },
-        { name: "Tailwind", src: "/assets/svg/tailwind.svg" },
+        { name: "Tailwind", src: "/assets/svg/Tailwind.svg" },
         { name: "Bootstrap", src: "/assets/svg/bootstrap.svg" },
         { name: "Typescript", src: "/assets/svg/typescript.svg" },
         { name: "Spring", src: "/assets/svg/spring.svg" },
