@@ -1,15 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import React, { Suspense } from "react";
-// import Home from "./pages/Home/Home";
-// import About from "./pages/About/About";
-// import Contact from "./pages/Contact/Contact";
-// import Jobs from "./pages/Jobs/Jobs";
-// import Staffing from "./pages/Staffing/Staffing";
-// import Manpower from "./pages/Manpower/Manpower";
-// import Payroll from "./pages/Payroll/Payroll";
-// import Executive from "./pages/Executive/Executive";
-// import ItDevelopment from "./pages/ItDevelopment/ItDevelopment";
-// import NotFound from "./pages/NotFound/NotFound";
+import Spinner from "./components/Spinner/Spinner";
+import ScrollToTop from "./function/ScrollToTop/ScrollToTop"
 
 
 const About = React.lazy(() => import("./pages/About/About"))
@@ -24,26 +16,18 @@ const ItDevelopment = React.lazy(() => import("./pages/ItDevelopment/ItDevelopme
 const NotFound = React.lazy(() => import("./pages/NotFound/NotFound"))
 
 
-import ScrollToTop from "./function/ScrollToTop/ScrollToTop"
 
 
 const App = () => (
 
-
-
-
   <>
     <ScrollToTop />
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<div className="flex justify-center items-center"><Spinner /> </div>}>
     <Routes>
       <Route path="/" element={<Home />}></Route>
-    
-        <Route path="/about" element={<About />}></Route>
-     
+      <Route path="/about" element={<About />}></Route> 
       <Route path="/contact" element={<Contact />}></Route>
       <Route path="/jobs" element={<Jobs />}></Route>
-
-
       <Route path="/manpower" element={<Manpower />}></Route>
       <Route path="/executive" element={<Executive />}></Route>
       <Route path="/payroll" element={<Payroll />}></Route>

@@ -37,7 +37,7 @@ const LogoShow = () =>{
         <div className="w-full py-8 px-16 bg-gradient-to-r from-blue-200 ">
           <h1 className="text-center text-4xl font-extrabold mb-6">The <span className="text-blue-700">Technology</span> That Drives Us
           </h1>
-          <div className="grid grid-cols-3 md:grid-cols-6 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-6 gap-4">
             {logos.map((logo, index) => (
               <div
                 key={index}

@@ -1,26 +1,13 @@
 import Footer from "/src/components/Footer/Footer.jsx";
 import Navbar from "/src/components/Navbar/Navbar.jsx";
 import HoverCard from "/src/components/HoverCard/HoverCard.jsx";
-import React, { useState, useEffect } from "react";
 import ThumbSwipe from "/src/components/ThumbSwipe/ThumbSwipe";
 import LogoShow from "../../components/LogoShow/LogoShow";
 
 
 const ItDevelopment = () => {
 
-    //     const [scrolled, setScrolled] = useState(false);
-
-    //     // Track scroll position
-    //     useEffect(() => {
-    //         const handleScroll = () => {
-    //             setScrolled(window.scrollY > 50); // Change navbar style after 50px scroll
-    //         };
-    //         window.addEventListener("scroll", handleScroll);
-    //         return () => {
-    //             window.removeEventListener("scroll", handleScroll);
-    //         };
-    //     }, []);
-
+  
     const scrollToSection = (id) => {
         const element = document.getElementById(id);
         if (element) {
@@ -92,7 +79,7 @@ const ItDevelopment = () => {
                             <p className="text-white text-lg md:text-xl mt-4 text-center px-4">
                                 Empowering businesses with cutting-edge technology and scalable solutions.
                             </p>
-                            <button onClick={() => scrollToSection("con")} className="mt-6 px-6 py-3 bg-gradient-to-r from-blue-500 to-pink-500 text-white rounded-lg shadow-lg hover:scale-110 transition text-center font-poppins" >
+                            <button onClick={() => scrollToSection("start")} className="mt-6 px-6 py-3 bg-gradient-to-r from-blue-500 to-pink-500 text-white rounded-lg shadow-lg hover:scale-110 transition text-center font-poppins" >
                                 Get Started
                             </button>
                         </div>
@@ -106,7 +93,7 @@ const ItDevelopment = () => {
 
 
 
-            <section id="con" className="md:h-screen flex flex-col justify-center items-center py-8 md:py-0 " >
+            <section id="start" className="md:h-screen flex flex-col justify-center items-center py-8 md:py-0 " >
                 <h1  className="text-4xl text-center text-slate-800 font-poppins font-extrabold  ">Driving <span className="text-blue-700"> Business Growth  </span>  with IT Innovation</h1>
                 <h4 className="text-center text-md font-poppins font-base px-2 md:px-16 md:py-8 py-4">At TechCombo, we deliver innovative and tailored IT solutions to streamline operations, enhance efficiency, and drive business growth. Our focus on cutting-edge technology and personalized support ensures solutions that align with your goals.</h4>
                 <HoverCard cards={PageContent.cards} />

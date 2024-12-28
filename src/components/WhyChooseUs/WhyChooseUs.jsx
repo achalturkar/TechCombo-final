@@ -29,7 +29,7 @@ const WhyChooseUs = ({chooses, img}) => {
             </div>
 
             <div className="w-full md:w-1/2 flex justify-center items-center mb-4" data-aos="fade-up">
-                <img src={img} alt="" className="md:size-8/12 hover:scale-103" />
+                <img src={img} alt="choose  " className="md:size-8/12 hover:scale-103" loading="lazy" />
             </div>
 
         </div>
