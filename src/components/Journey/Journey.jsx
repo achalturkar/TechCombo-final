@@ -21,14 +21,6 @@ const Journey = () => {
     return (
 
         <div>
-            <div className="items-center mb-12" data-aos="fade-up">
-                <h2 className=" text-center text-4xl font-extrabold font-poppins mb-4">Our Journey</h2>
-                <p className="text-xl font-medium text-gray-600 font-noto text-center">
-                    "Challenges shaped us, milestones inspired us, and our vision continues to drive us forward."
-                </p>
-            </div>
-
-
             <Swiper
                 modules={[Pagination, Navigation]}
                 // slidesPerView={3}

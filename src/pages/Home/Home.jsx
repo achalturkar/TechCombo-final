@@ -8,17 +8,19 @@ import ThumbSwipe from "../../components/ThumbSwipe/ThumbSwipe";
 import Statistics from "../../components/Statistics/Statistics";
 import HoverCard from "../../components/HoverCard/HoverCard";
 
+import React, { Suspense } from "react";
+
 const Home = () => {
 
    const pageContent = {
 
 
       cards: [
-         { id: 11, title: "Staffing & Selection", description: "We connect businesses with the right talent, ensuring they find skilled professionals for every role, from entry-level to senior positions." },
-         { id: 2, title: "Manpower Outsourcing", description: "Scale your operations effortlessly with our manpower outsourcing solutions, designed to meet your short-term and long-term workforce needs." },
-         { id: 3, title: "Payroll Outsourcing", description: "We manage payroll processes efficiently, reducing administrative burdens and ensuring timely and accurate payments for employees." },
-         { id: 4, title: "Executive Search", description: "Our executive search service identifies top leaders and key decision-makers to help organizations grow and thrive."},
-         { id: 5, title: "IT Project Development", description: "We develop and deliver high-quality IT projects tailored to client needs, ensuring timely completion with the latest technologies." },
+         { id: 21, title: "Staffing & Selection", description: "We connect businesses with the right talent, ensuring they find skilled professionals for every role, from entry-level to senior positions." },
+         { id: 12, title: "Manpower Outsourcing", description: "Scale your operations effortlessly with our manpower outsourcing solutions, designed to meet your short-term and long-term workforce needs." },
+         { id: 13, title: "Payroll Outsourcing", description: "We manage payroll processes efficiently, reducing administrative burdens and ensuring timely and accurate payments for employees." },
+         { id: 14, title: "Executive Search", description: "Our executive search service identifies top leaders and key decision-makers to help organizations grow and thrive." },
+         { id: 15, title: "IT Project Development", description: "We develop and deliver high-quality IT projects tailored to client needs, ensuring timely completion with the latest technologies." },
       ],
 
       planData: [
@@ -62,17 +64,21 @@ const Home = () => {
             <Hero />
 
 
-            <section id="start" className="md:h-screen flex flex-col justify-center items-center py-8 md:py-0 " >
+            <section id="start" className="md:h-screen flex flex-col justify-center items-center py-8 md:py-0 " data-aos="fade-up">
                <h1 className="text-4xl text-center text-slate-800 font-poppins font-extrabold  ">Innovative   <span className="text-blue-700"> Services  </span>  for Every Need</h1>
                <h4 className="text-center text-md font-poppins font-base px-2 md:px-16 md:py-8 py-4">At TechCombo, we specialize in tailored staffing, outsourcing, and IT project solutions. Our people-first approach ensures businesses find the right talent, while professionals unlock exciting career opportunities. Let us help you achieve success with innovation and efficiency.</h4>
                <HoverCard cards={pageContent.cards} />
             </section>
 
-            <section className="mt-16 md:mt-44  md:px-44">
-               <Statistics />
-            </section>
+            <Suspense>
+               <section className="mt-8 md:mt-4  md:px-40" data-aos="fade-up">
+                  <Statistics />
+               </section>
+            </Suspense>
 
-            <section className="mt-8 pt-4 md:mt-16 md:px-44 ">
+            <section className="mt-8 pt-4 md:mt-16 md:px-44 " data-aos="fade-up">
+               <h1 className="text-4xl text-center text-slate-800 font-poppins font-extrabold  ">A <span className="text-blue-700"> Journey  </span>of Innovation and Impact</h1>
+               <h4 className="text-center text-md font-poppins font-base px-2 md:px-16 md:py-8 py-4">"TechCombo's journey reflects growth and innovation, evolving from IT staffing to diverse sectors and workforce solutions. Each milestone showcases our commitment to empowering businesses and bridging talent with opportunities."</h4>
                <Journey />
             </section>
 
