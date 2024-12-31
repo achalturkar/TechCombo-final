@@ -22,12 +22,7 @@ const Slider = () => {
     return (
 
         <div>
-              <div className=" text-center" data-aos="fade-up">
-                    <h2 className="text-4xl font-extrabold font-poppins mb-4">Industry Focus</h2>
-                    <p className="text-gray-600 text-xl font-medium	 font-noto mb-4">"Driving innovation and excellence across industries, empowering growth, and shaping the future."</p>
-                </div>
-
-               
+                     
       <Swiper
         modules={[ Autoplay]}
         // slidesPerView={3}
