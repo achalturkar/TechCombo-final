@@ -11,10 +11,10 @@ import "swiper/css/navigation";
 const Journey = () => {
 
     const journeyData = [
-        { year: "2020 - The Beginning", text: "Established with a focus on IT staffing and solutions, aiming to deliver efficient and reliable services.", image: "/assets/images/bul.jpg" },
+        { year: "2020 - The Beginning", text: "Established with a focus on IT staffing and solutions, aiming to deliver efficient and reliable services.", image: "/assets/images/fir.jpg" },
         { year: "2021 - Building Momentum", text: "Introduced contract-based hiring models and strengthened partnerships with freelancers.", image: "/assets/images/exp.jpg" },
         { year: "2022 - Expanding Horizons", text: "Broadened operations to cover non-IT sectors and introduced payroll outsourcing solutions.", image: "/assets/images/hori.jpg" },
-        { year: "2023 - Achieving Milestones", text: "Reached 100+ clients across IT and non-IT industries, building lasting partnerships.", image: "/assets/images/exe3.jpg"  },
+        { year: "2023 - Achieving Milestones", text: "Reached 100+ clients across IT and non-IT industries, building lasting partnerships.", image: "/assets/images/mkg.jpg"  },
 
     ];
 
@@ -45,7 +45,7 @@ const Journey = () => {
                     <SwiperSlide key={index}>
                         <div className="flex flex-col items-center overflow-hidden bg-white rounded-2xl min-h-max hover:-translate-y-2" data-aos="fade-up">
                             <div className="w-full min-h-75 items-center justify-center object-cover">
-                                <img className="w-full h-auto m-2 object-cover " src={journey.image} alt={`Journey ${journey.year}`} />
+                                <img className="w-full h-auto m-2 object-cover rounded-xl" src={journey.image} alt={`Journey ${journey.year}`} />
 
                             </div>
                             <hr />

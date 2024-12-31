@@ -77,7 +77,7 @@ const Home = () => {
             </Suspense>
 
 
-            <section className="mt-4 w-full h-screen  flex justify-center items-center">
+            <section className="mt-8 md:mt-36 justify-center items-center">
 
                <ItHome/>
                
