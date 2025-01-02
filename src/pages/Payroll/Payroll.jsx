@@ -61,6 +61,8 @@ const Payroll = () => {
                 <meta property="og:description" content="Manage your payroll efficiently with TechCombo's expert outsourcing solutions." />
                 <meta property="og:url" content="https://techcombo.in/payroll" />
                 <meta property="og:type" content="website" />
+                <link rel="canonical" href="https://techcombo.in/payroll" />
+
             </Helmet>
 
             <Navbar />

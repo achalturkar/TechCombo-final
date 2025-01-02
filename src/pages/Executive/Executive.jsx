@@ -57,6 +57,8 @@ const Executive = () => {
                 <meta property="og:description" content="Hire the best leadership talent with TechCombo's executive search expertise." />
                 <meta property="og:url" content="https://techcombo.in/executive" />
                 <meta property="og:type" content="website" />
+                <link rel="canonical" href="https://techcombo.in/executive" />
+
             </Helmet>
 
             <Navbar />

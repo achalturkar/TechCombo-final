@@ -16,6 +16,8 @@ const Jobs = () => {
         <meta property="og:description" content="Discover exciting job opportunities with TechCombo in IT, freelancing, and contract work." />
         <meta property="og:url" content="https://techcombo.in/jobs" />
         <meta property="og:type" content="website" />
+        <link rel="canonical" href="https://techcombo.in/jobs" />
+
       </Helmet>
 
       <Navbar />

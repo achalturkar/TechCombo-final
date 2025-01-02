@@ -60,6 +60,7 @@ const Home = () => {
 
       <>
          <Helmet>
+
             <title>TechCombo - Leading IT and Staffing Solutions</title>
             <meta name="description" content="Explore TechCombo's innovative IT solutions, Staffing, Payroll, Manpower outsourcing services. Empower your career with our job opportunities." />
             <meta name="keywords" content="TechCombo, IT jobs, Non-IT, Staffing, payroll outsourcing, manpower services, Executive" />
@@ -67,6 +68,8 @@ const Home = () => {
             <meta property="og:title" content="TechCombo - Leading IT and Staffing Solutions" />
             <meta property="og:description" content="Discover TechCombo's IT development and staffing services. Transform your business and career with our expertise." />
             <meta property="og:url" content="https://techcombo.in/" />
+            <link rel="canonical" href="https://techcombo.in/" />
+
             <meta property="og:type" content="website" />
          </Helmet>
 

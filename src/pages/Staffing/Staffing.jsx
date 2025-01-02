@@ -43,6 +43,8 @@ const Staffing = () => {
                 <meta property="og:description" content="Find the best staffing solutions for your business with TechCombo's expertise." />
                 <meta property="og:url" content="https://techcombo.in/staffing" />
                 <meta property="og:type" content="website" />
+                <link rel="canonical" href="https://techcombo.in/staffing" />
+
             </Helmet>
 
             <Navbar />

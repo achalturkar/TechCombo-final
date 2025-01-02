@@ -46,6 +46,8 @@ const About = () => {
         <meta property="og:description" content="Explore the journey of TechCombo, delivering IT and staffing services with excellence." />
         <meta property="og:url" content="https://techcombo.in/about" />
         <meta property="og:type" content="website" />
+        <link rel="canonical" href="https://techcombo.in/about" />
+
       </Helmet>
       <Navbar />
 

@@ -16,6 +16,8 @@ const Contact = () => {
         <meta property="og:description" content="Reach out to TechCombo for IT services and staffing inquiries." />
         <meta property="og:url" content="https://techcombo.in/contact" />
         <meta property="og:type" content="website" />
+        <link rel="canonical" href="https://techcombo.in/contact" />
+
       </Helmet>
 
       <Navbar />

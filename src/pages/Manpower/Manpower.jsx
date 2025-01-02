@@ -60,6 +60,8 @@ const Manpower = () => {
                 <meta property="og:title" content="Manpower Outsourcing - TechCombo" />
                 <meta property="og:description" content="Optimize your workforce with TechCombo's trusted manpower outsourcing services." />
                 <meta property="og:url" content="https://techcombo.in/manpower" />
+                <link rel="canonical" href="https://techcombo.in/manpower" />
+
                 <meta property="og:type" content="website" />
             </Helmet>
 

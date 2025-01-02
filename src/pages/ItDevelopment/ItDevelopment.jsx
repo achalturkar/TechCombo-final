@@ -71,6 +71,8 @@ const ItDevelopment = () => {
                 <meta property="og:description" content="Transform your business with TechCombo's innovative IT development solutions." />
                 <meta property="og:url" content="https://techcombo.in/itDevelopment" />
                 <meta property="og:type" content="website" />
+                <link rel="canonical" href="https://techcombo.in/itDevelopment" />
+
             </Helmet>
 
             <div className="relative">
