@@ -9,6 +9,8 @@ import Statistics from "../../components/Statistics/Statistics";
 import HoverCard from "../../components/HoverCard/HoverCard";
 import React, { Suspense } from "react";
 import ItHome from "../../components/ItHome/ItHome";
+import { Helmet } from "react-helmet-async";
+
 
 const Home = () => {
 
@@ -57,6 +59,17 @@ const Home = () => {
    return (
 
       <>
+         <Helmet>
+            <title>TechCombo - Leading IT and Staffing Solutions</title>
+            <meta name="description" content="Explore TechCombo's innovative IT solutions, Staffing, Payroll, Manpower outsourcing services. Empower your career with our job opportunities." />
+            <meta name="keywords" content="TechCombo, IT jobs, Non-IT, Staffing, payroll outsourcing, manpower services, Executive" />
+            <meta name="robots" content="index, follow" />
+            <meta property="og:title" content="TechCombo - Leading IT and Staffing Solutions" />
+            <meta property="og:description" content="Discover TechCombo's IT development and staffing services. Transform your business and career with our expertise." />
+            <meta property="og:url" content="https://techcombo.in/" />
+            <meta property="og:type" content="website" />
+         </Helmet>
+
          <Navbar />
 
          <main>
@@ -64,7 +77,7 @@ const Home = () => {
             {/* <Hero /> */}
 
 
-            <section id="start" className="md:h-screen flex flex-col justify-center items-center py-8 md:py-0 mt-12" data-aos="fade-up">
+            <section id="start" className="lg:h-screen flex flex-col justify-center items-center py-8 md:py-0 mt-12 md:mt-20" data-aos="fade-up">
                <h1 className="text-4xl text-center text-slate-800 font-poppins font-extrabold  ">Innovative   <span className="text-blue-700"> Services  </span>  for Every Need</h1>
                <h4 className="text-center text-md font-poppins font-base px-2 md:px-16 md:py-8 py-4">At TechCombo, we specialize in tailored staffing, outsourcing, and IT project solutions. Our people-first approach ensures businesses find the right talent, while professionals unlock exciting career opportunities. Let us help you achieve success with innovation and efficiency.</h4>
                <HoverCard cards={pageContent.cards} />
@@ -77,10 +90,10 @@ const Home = () => {
             </Suspense>
 
 
-            <section className="mt-8 md:mt-36 justify-center items-center">
+            <section className="mt-16 md:mt-36 justify-center items-center">
 
-               <ItHome/>
-               
+               <ItHome />
+
             </section>
 
             <section className="mt-8 pt-4 md:mt-16 md:px-44 " data-aos="fade-up">
@@ -89,15 +102,15 @@ const Home = () => {
                <Journey />
             </section>
 
-            <section className="mt-8 pt-4 md:mt-16 md:px-44 bg-slat-100">                 
+            <section className="mt-8 pt-4 md:mt-16 md:px-44 bg-slat-100">
                <h1 className="text-4xl text-center text-slate-800 font-poppins font-extrabold  ">What <span className="text-blue-700"> Drives  </span> us?</h1>
                <h4 className="text-center text-md font-poppins font-base px-2 md:px-16 md:py-8 py-4">"Learn About the Principles Driving Our Commitment to Excellence"</h4>
                <ThumbSwipe planData={pageContent.planData} />
             </section>
 
             <section className="mt-8 pt-4 md:mt-16 md:px-44 mb-8 bg-slat-200">
-            <h1 className="text-4xl text-center text-slate-800 font-poppins font-extrabold  ">Focused on <span className="text-blue-700">  Industry  </span> Excellence </h1>
-            <h4 className="text-center text-md font-poppins font-base px-2 md:px-16 md:py-8 py-4">"Driving innovation and excellence across industries, empowering growth, and shaping the future"</h4>
+               <h1 className="text-4xl text-center text-slate-800 font-poppins font-extrabold  ">Focused on <span className="text-blue-700">  Industry  </span> Excellence </h1>
+               <h4 className="text-center text-md font-poppins font-base px-2 md:px-16 md:py-8 py-4">"Driving innovation and excellence across industries, empowering growth, and shaping the future"</h4>
                <Slider />
             </section>
 

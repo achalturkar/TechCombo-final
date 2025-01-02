@@ -3,7 +3,7 @@ import Navbar from "/src/components/Navbar/Navbar.jsx";
 import WhyChooseUs from "/src/components/WhyChooseUs/WhyChooseUs.jsx"
 import Detail from "/src/components/Detail/Detail.jsx"
 import OurServices from "/src/components/OurServices/OurServices.jsx";
-
+import { Helmet } from "react-helmet-async";
 
 const Payroll = () => {
 
@@ -41,7 +41,7 @@ const Payroll = () => {
             },
         ],
 
-        paraChooses :[
+        paraChooses: [
             { head: "Time-Saving:", desc: "Free up valuable time to focus on strategic business growth." },
             { head: "Cost-Effective Solutions: ", desc: "Reduce overhead costs by outsourcing payroll management to experts." },
             { head: "Data Security:", desc: "Protect sensitive payroll information with secure systems and processes." },
@@ -52,6 +52,17 @@ const Payroll = () => {
     return (
 
         <>
+            <Helmet>
+                <title>Payroll Outsourcing - TechCombo</title>
+                <meta name="description" content="Simplify payroll management with TechCombo's professional payroll outsourcing services for businesses of all sizes." />
+                <meta name="keywords" content="Payroll outsourcing, payroll services, TechCombo, payroll management, NonIT payroll, IT Payroll" />
+                <meta name="robots" content="index, follow" />
+                <meta property="og:title" content="Payroll Outsourcing - TechCombo" />
+                <meta property="og:description" content="Manage your payroll efficiently with TechCombo's expert outsourcing solutions." />
+                <meta property="og:url" content="https://techcombo.in/payroll" />
+                <meta property="og:type" content="website" />
+            </Helmet>
+
             <Navbar />
 
             <section className="relative w-full h-96 bg-cover bg-center object-fit  bg-no-repeat" style={{ backgroundImage: "url(/assets/images/paymain.webp)" }}>

@@ -3,6 +3,7 @@ import Navbar from "/src/components/Navbar/Navbar.jsx";
 import WhyChooseUs from "/src/components/WhyChooseUs/WhyChooseUs.jsx"
 import Detail from "/src/components/Detail/Detail.jsx"
 import OurServices from "/src/components/OurServices/OurServices.jsx";
+import { Helmet } from "react-helmet-async";
 
 
 const Executive = () => {
@@ -36,7 +37,7 @@ const Executive = () => {
             },
         ],
 
-        paraChooses :[
+        paraChooses: [
             { head: "Deep Market Knowledge:", desc: "Stay ahead with insights into talent trends and market dynamics." },
             { head: "Global Reach:", desc: "Access to a broad network of senior executives across industries and geographies." },
             { head: "Discreet and Confidential:", desc: "Our process ensures complete confidentiality for both clients and candidates." },
@@ -47,6 +48,17 @@ const Executive = () => {
     return (
 
         <>
+            <Helmet>
+                <title>Executive Search - TechCombo</title>
+                <meta name="description" content="TechCombo specializes in executive search services to find top leadership talent for your organization." />
+                <meta name="keywords" content="Executive search, leadership hiring, TechCombo, executive talent, TechCombo executives" />
+                <meta name="robots" content="index, follow" />
+                <meta property="og:title" content="Executive Search - TechCombo" />
+                <meta property="og:description" content="Hire the best leadership talent with TechCombo's executive search expertise." />
+                <meta property="og:url" content="https://techcombo.in/executive" />
+                <meta property="og:type" content="website" />
+            </Helmet>
+
             <Navbar />
 
             <section className="relative w-full h-96 bg-cover bg-center object-fit  bg-no-repeat" style={{ backgroundImage: "url(/assets/images/executive.webp)" }}>

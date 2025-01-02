@@ -3,11 +3,12 @@ import Navbar from "/src/components/Navbar/Navbar.jsx";
 import HoverCard from "/src/components/HoverCard/HoverCard.jsx";
 import ThumbSwipe from "/src/components/ThumbSwipe/ThumbSwipe";
 import LogoShow from "../../components/LogoShow/LogoShow";
+import { Helmet } from "react-helmet-async";
 
 
 const ItDevelopment = () => {
 
-  
+
     const scrollToSection = (id) => {
         const element = document.getElementById(id);
         if (element) {
@@ -61,6 +62,17 @@ const ItDevelopment = () => {
     return (
 
         <>
+            <Helmet>
+                <title>IT Development Services - TechCombo</title>
+                <meta name="description" content="Empower your business with TechCombo's innovative IT development services, including web and software solutions." />
+                <meta name="keywords" content="IT development, TechCombo services, web development,App Development, AI, Cybersecurity,  software solutions, cutting-edge Technology" />
+                <meta name="robots" content="index, follow" />
+                <meta property="og:title" content="IT Development Services - TechCombo" />
+                <meta property="og:description" content="Transform your business with TechCombo's innovative IT development solutions." />
+                <meta property="og:url" content="https://techcombo.in/itDevelopment" />
+                <meta property="og:type" content="website" />
+            </Helmet>
+
             <div className="relative">
 
                 <Navbar />
@@ -94,7 +106,7 @@ const ItDevelopment = () => {
 
 
             <section id="start" className="md:h-screen flex flex-col justify-center items-center py-8 md:py-0 " >
-                <h1  className="text-4xl text-center text-slate-800 font-poppins font-extrabold  ">Driving <span className="text-blue-700"> Business Growth  </span>  with IT Innovation</h1>
+                <h1 className="text-4xl text-center text-slate-800 font-poppins font-extrabold  ">Driving <span className="text-blue-700"> Business Growth  </span>  with IT Innovation</h1>
                 <h4 className="text-center text-md font-poppins font-base px-2 md:px-16 md:py-8 py-4">At TechCombo, we deliver innovative and tailored IT solutions to streamline operations, enhance efficiency, and drive business growth. Our focus on cutting-edge technology and personalized support ensures solutions that align with your goals.</h4>
                 <HoverCard cards={PageContent.cards} />
             </section>

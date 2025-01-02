@@ -7,7 +7,7 @@ const ItHome = () => {
 
     return (
 
-        <div className="flex flex-col md:flex-row justify-center items-center md:mx-36 md:gap-12 p-6 bg-gradient-to-r from-green-400 to-blue-400 rounded-lg shadow-lg">
+        <div className="flex flex-col lg:flex-row justify-center items-center md:mx-36 md:gap-12 p-6 bg-gradient-to-r from-green-400 to-blue-400 rounded-lg shadow-lg">
             <div className="h-56 w-56 md:w-96 md:h-96 flex justify-center items-center rounded-full bg-white shadow-md overflow-hidden">
                 <img src="/assets/images/compute.jpg" alt="Professional Image" className="w-full h-full object-cover rotate-270"/>
             </div>

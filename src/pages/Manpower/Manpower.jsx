@@ -3,7 +3,7 @@ import Navbar from "/src/components/Navbar/Navbar.jsx";
 import WhyChooseUs from "/src/components/WhyChooseUs/WhyChooseUs.jsx"
 import Detail from "/src/components/Detail/Detail.jsx"
 import OurServices from "/src/components/OurServices/OurServices.jsx";
-
+import { Helmet } from "react-helmet-async";
 
 const Manpower = () => {
 
@@ -41,7 +41,7 @@ const Manpower = () => {
             },
         ],
 
-        paraChooses :[
+        paraChooses: [
             { head: "Cost-Effective Solutions:", desc: "Reduce overhead costs associated with recruitment, training, and payroll." },
             { head: "Quick and Efficient Deployment:", desc: "Access a ready pool of skilled professionals who can be deployed quickly to meet your project or staffing needs." },
             { head: "Scalable Services:", desc: "Whether you need one employee or an entire team, we offer flexible solutions that scale with your needs." },
@@ -52,6 +52,17 @@ const Manpower = () => {
     return (
 
         <>
+            <Helmet>
+                <title>Manpower Outsourcing - TechCombo</title>
+                <meta name="description" content="TechCombo provides reliable manpower outsourcing services to streamline your operations and improve efficiency." />
+                <meta name="keywords" content="Manpower outsourcing, TechCombo services, manpower efficiency, staffing solutions, Manpower" />
+                <meta name="robots" content="index, follow" />
+                <meta property="og:title" content="Manpower Outsourcing - TechCombo" />
+                <meta property="og:description" content="Optimize your workforce with TechCombo's trusted manpower outsourcing services." />
+                <meta property="og:url" content="https://techcombo.in/manpower" />
+                <meta property="og:type" content="website" />
+            </Helmet>
+
             <Navbar />
 
             <section className="relative w-full h-96 bg-cover bg-center object-fit  bg-no-repeat" style={{ backgroundImage: "url(/assets/images/manpower.webp)" }}>
