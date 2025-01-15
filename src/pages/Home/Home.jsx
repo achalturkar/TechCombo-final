@@ -80,38 +80,38 @@ const Home = () => {
             {/* <Hero /> */}
 
 
-            <section id="start" className="lg:h-screen flex flex-col justify-center items-center py-8 md:py-0 mt-12 md:mt-20" data-aos="fade-up">
+            <section id="start" className=" flex flex-col justify-center items-center py-8 md:py-0 mt-16 md:mt-28" data-aos="fade-up">
                <h1 className="text-4xl text-center text-slate-800 font-poppins font-extrabold  ">Innovative   <span className="text-blue-700"> Services  </span>  for Every Need</h1>
                <h4 className="text-center text-md font-poppins font-base px-2 md:px-16 md:py-8 py-4">At TechCombo, we specialize in tailored staffing, outsourcing, and IT project solutions. Our people-first approach ensures businesses find the right talent, while professionals unlock exciting career opportunities. Let us help you achieve success with innovation and efficiency.</h4>
                <HoverCard cards={pageContent.cards} />
             </section>
 
             <Suspense>
-               <section className="mt-8 md:mt-4  md:px-40" data-aos="fade-up">
+               <section className="mt-16 md:mt-24 md:px-40" data-aos="fade-up">
                   <Statistics />
                </section>
             </Suspense>
 
 
-            <section className="mt-16 md:mt-36 justify-center items-center">
+            <section className="mt-16 md:mt-24 justify-center items-center">
 
                <ItHome />
 
             </section>
 
-            <section className="mt-8 pt-4 md:mt-16 md:px-44 " data-aos="fade-up">
+            <section className="mt-8 pt-4 md:mt-24 md:px-44 " data-aos="fade-up">
                <h1 className="text-4xl text-center text-slate-800 font-poppins font-extrabold  ">A <span className="text-blue-700"> Journey  </span>of Innovation and Impact</h1>
                <h4 className="text-center text-md font-poppins font-base px-2 md:px-16 md:py-8 py-4">"TechCombo's journey reflects growth and innovation, evolving from IT staffing to diverse sectors and workforce solutions. Each milestone showcases our commitment to empowering businesses and bridging talent with opportunities."</h4>
                <Journey />
             </section>
 
-            <section className="mt-8 pt-4 md:mt-16 md:px-44 bg-slat-100">
+            <section className="mt-8 pt-4 md:mt-24 md:px-44 bg-slat-100">
                <h1 className="text-4xl text-center text-slate-800 font-poppins font-extrabold  ">What <span className="text-blue-700"> Drives  </span> us?</h1>
                <h4 className="text-center text-md font-poppins font-base px-2 md:px-16 md:py-8 py-4">"Learn About the Principles Driving Our Commitment to Excellence"</h4>
                <ThumbSwipe planData={pageContent.planData} />
             </section>
 
-            <section className="mt-8 pt-4 md:mt-16 md:px-44 mb-8 bg-slat-200">
+            <section className="mt-8 pt-4 md:mt-24 md:px-44 mb-8 bg-slat-200">
                <h1 className="text-4xl text-center text-slate-800 font-poppins font-extrabold  ">Focused on <span className="text-blue-700">  Industry  </span> Excellence </h1>
                <h4 className="text-center text-md font-poppins font-base px-2 md:px-16 md:py-8 py-4">"Driving innovation and excellence across industries, empowering growth, and shaping the future"</h4>
                <Slider />

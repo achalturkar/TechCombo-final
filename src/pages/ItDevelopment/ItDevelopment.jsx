@@ -107,19 +107,19 @@ const ItDevelopment = () => {
 
 
 
-            <section id="start" className="md:h-screen flex flex-col justify-center items-center py-8 md:py-0 " >
+            <section id="start" className=" flex flex-col justify-center items-center py-8 md:py-0 mt-12" >
                 <h1 className="text-4xl text-center text-slate-800 font-poppins font-extrabold  ">Driving <span className="text-blue-700"> Business Growth  </span>  with IT Innovation</h1>
                 <h4 className="text-center text-md font-poppins font-base px-2 md:px-16 md:py-8 py-4">At TechCombo, we deliver innovative and tailored IT solutions to streamline operations, enhance efficiency, and drive business growth. Our focus on cutting-edge technology and personalized support ensures solutions that align with your goals.</h4>
                 <HoverCard cards={PageContent.cards} />
             </section>
 
-            <section>
+            <section className="mt-16 ">
 
                 <LogoShow />
             </section>
 
 
-            <section className="md:px-48 mt-8">
+            <section className="md:px-48 mt-16 mb-8">
                 <ThumbSwipe planData={PageContent.planData} />
             </section>
 
